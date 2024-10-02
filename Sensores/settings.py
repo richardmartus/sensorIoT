@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'Sensores.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'sensoriot',
-            'USER': 'root',
-            'PASSWORD': 'root',
-            'HOST': 'localhost',
+            'NAME': 'sensor',
+            'USER': 'remote',
+            'PASSWORD': 'Canelones1119.AID',
+            'HOST': '179.27.99.160',
             'PORT': '3306',
         }
     }
